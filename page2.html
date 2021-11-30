@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="Default">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content="Mike is one of the best Web Designers in the Altanta area. You can contact him through forms on this page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -27,6 +27,10 @@
     
 </head>
 <body>
+<!-- Link to top of page -->
+<a id="top"></a>
+<!-- Link to top of page END -->
+
 <!-- Main container -->
 <div class="page-container">
     
@@ -35,7 +39,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png" alt="GoMikeDesign's Logo"  height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -79,27 +83,27 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate  success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" >
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Name
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							How did you find me?
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -119,7 +123,7 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a href="#top" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
