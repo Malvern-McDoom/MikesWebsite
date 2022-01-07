@@ -1046,3 +1046,12 @@ h4 {
         text-align: center;
     }
 }
+
+
+col-sm-4, ul, li {
+    color:#cccccc; 
+}
+
+col-sm-4, ul, a {
+    color: hsl(17, 41%, 7%);
+}
